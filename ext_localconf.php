@@ -21,7 +21,7 @@ defined('TYPO3') || die();
                 exampleapirequest {
                     iconIdentifier = bayernportal-example-api-request
                     title = LLL:EXT:bayernportal_api/Resources/Private/Language/locallang_db.xlf:plugin_bayernportal_api_exampleapirequest.name
-                    description = LLL:EXT:bayernportal_api/Resources/Private/Language/locallang_db.xlf:plugin_bayernportal_api_plugin_bayernportal_api_exampleapirequest.description
+                    description = LLL:EXT:bayernportal_api/Resources/Private/Language/locallang_db.xlf:plugin_bayernportal_api_exampleapirequest.description
                     tt_content_defValues {
                         CType = list
                         list_type = bayernportalapi_exampleapirequest
