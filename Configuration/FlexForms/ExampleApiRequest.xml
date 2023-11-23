@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:bayernportal_api/Resources/Private/Language/locallang_db.xlf:flexform.title</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.endpoint>
+                        <TCEforms>
+                            <label>LLL:EXT:bayernportal_api/Resources/Private/Language/locallang_db.xlf:flexform.endpoint</label>
+                            <config>
+                                <type>input</type>
+                                <default>leistungsbeschreibungen</default>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.endpoint>
+                    <settings.parameter>
+                        <TCEforms>
+                            <label>LLL:EXT:bayernportal_api/Resources/Private/Language/locallang_db.xlf:flexform.parameter</label>
+                            <config>
+                                <type>input</type>
+                                <default></default>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.parameter>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

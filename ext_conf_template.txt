@@ -1,0 +1,10 @@
+# cat=BayernPortal API; type=string; label="Gemeindekennziffer" of city/commune
+municipalCode =
+# cat=BayernPortal API; type=string; label= API address of BayernPortal API (with trailing slash)
+apiUrl = https://www.bayernportal-webservices.bayern.de/rest/allgemein/
+# cat=BayernPortal API; type=string; label=API version of BayernPortal API
+apiVersion = v3
+# cat=BayernPortal API; type=string; label=User identification of BayernPortal API
+apiUserIdentification =
+# cat=BayernPortal API; type=string; label=Password of BayernPortal API
+apiPassword =

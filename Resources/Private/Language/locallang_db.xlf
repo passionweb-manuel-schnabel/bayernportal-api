@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:bayernportal_api/Resources/Private/Language/locallang_db.xlf" date="2023-11-22T19:34:11Z" product-name="bayernportal_api">
+		<header/>
+		<body>
+			<trans-unit id="plugin_bayernportal_api_exampleapirequest.name" resname="plugin_bayernportal_api_exampleapirequest.name">
+                <source>Example API request</source>
+            </trans-unit>
+            <trans-unit id="plugin_bayernportal_api_exampleapirequest.description" resname="plugin_bayernportal_api_exampleapirequest.description">
+                <source>Shows an example request which uses the BayernPortal API</source>
+            </trans-unit>
+            <trans-unit id="flexform.apirequest.title" resname="flexform.title">
+                <source>Options</source>
+            </trans-unit>
+            <trans-unit id="flexform.endpoint" resname="flexform.endpoint">
+                <source>Endpoint (without leading and trailing slash)</source>
+            </trans-unit>
+            <trans-unit id="flexform.parameter" resname="flexform.parameter">
+                <source>Parameter</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

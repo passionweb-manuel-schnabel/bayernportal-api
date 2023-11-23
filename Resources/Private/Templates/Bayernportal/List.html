@@ -1,0 +1,37 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+<f:section name="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <f:for each="{fetchedData}" key="name" as="data" iteration="it">
+                    <f:if condition="{it.isFirst}">
+                        <f:then>
+                            <h1 class="my-4">{data}</h1>
+                        </f:then>
+                        <f:else>
+                            <button
+                                class="btn btn-outline-primary w-100 text-left"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapse{it.index}"
+                                aria-expanded="false"
+                                aria-controls="collapse{i.index}"
+                            >
+                                {name}
+                            </button>
+                            <div class="collapse" id="collapse{it.index}">
+                                <div class="card card-body">
+                                    <f:format.raw>{data}</f:format.raw>
+                                </div>
+                            </div>
+                        </f:else>
+                    </f:if>
+                </f:for>
+            </div>
+        </div>
+    </div>
+</f:section>
+
+</html>
