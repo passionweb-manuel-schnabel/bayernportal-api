@@ -13,6 +13,7 @@ Add via composer:
     composer require "passionweb/bayernportal-api"
 
 * Install the extension via composer
+* Enter your BayernPortal API credentials in the extension settings
 * Flush TYPO3 and PHP Cache
 
 ## Requirements
